@@ -53,6 +53,16 @@ html {
     width: 570px;
   }
   
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    text-align: center;
+    padding: 5px;
+  }
+
   .example h1 {
     text-align: center;
     font-weight: 100;
